@@ -8,7 +8,7 @@
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Device Path
-DEVICE_PATH := device/xiaomi/raphael
+DEVICE_PATH := device/xiaomi/crux
 
 # Architecture
 TARGET_ARCH := arm64
@@ -94,7 +94,7 @@ BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # TWRP Build Flags
-TW_DEVICE_VERSION := Helium_Studio
+TW_DEVICE_VERSION := ZC_J1an9
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
