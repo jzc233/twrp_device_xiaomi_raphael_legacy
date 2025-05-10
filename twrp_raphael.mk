@@ -5,7 +5,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := raphael
+PRODUCT_RELEASE_NAME := crux
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -15,10 +15,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/raphael/device.mk)
+$(call inherit-product, device/xiaomi/crux/device.mk)
 
-PRODUCT_DEVICE := raphael
-PRODUCT_NAME := twrp_raphael
+PRODUCT_DEVICE := crux
+PRODUCT_NAME := twrp_crux
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi K20 Pro
+PRODUCT_MODEL := Mi 9 Pro 5G
 PRODUCT_MANUFACTURER := Xiaomi
