@@ -149,4 +149,4 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
 # Maintainer
-TW_DEVICE_VERSION := Helium_Studio
+TW_DEVICE_VERSION := ZC_J1an9
